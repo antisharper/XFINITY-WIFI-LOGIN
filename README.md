@@ -21,7 +21,8 @@ After clicking on XFINITY network
 
 ## Configure wpa_supplicant.conf
 _Add to the current file_
-```network={
+```
+network={
     ssid="XFINITY"
     scan_ssid=1
     key_mgmt=WPA-EAP
