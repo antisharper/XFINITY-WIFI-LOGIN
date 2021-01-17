@@ -28,6 +28,7 @@ network={
     key_mgmt=WPA-EAP
     eap=TTLS
     domain="secure.aaa.wifi.xfinity.com"
+    ca_cert="/usr/share/ca-certificates/mozilla/Comodo_AAA_Services_root.crt"
     phase2="auth=PAP"
     identity="**Your Comcast Account/Emailaddress**"
     password="**Your Comcast Account Password**"
