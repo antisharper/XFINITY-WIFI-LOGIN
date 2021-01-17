@@ -18,3 +18,17 @@ After clicking on XFINITY network
 |Inner Authentication|**PAP**|
 |Username|_Your comcast email account_|
 |Password|_Your comcast password_|
+
+## Configure wpa_supplicant.conf
+_Add to the current file_
+network={
+    ssid="XFINITY"
+    scan_ssid=1
+    key_mgmt=WPA-EAP
+    eap=TTLS
+    domain="secure.aaa.wifi.xfinity.com"
+    phase2="auth=PAP"
+    identity="**Your Comcast Account/Emailaddress**"
+    password="**Your Comcast Account Password**"
+    
+}
