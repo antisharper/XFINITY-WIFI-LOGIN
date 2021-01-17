@@ -32,6 +32,5 @@ network={
     phase2="auth=PAP"
     identity="**Your Comcast Account/Emailaddress**"
     password="**Your Comcast Account Password**"
-    
 }
 ```
