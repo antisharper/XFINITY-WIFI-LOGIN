@@ -13,7 +13,7 @@ After clicking on XFINITY network
 |Authentication|**Tunneled TLS**|
 |Anonymous identity|_Leave this empty_|
 |Domain|**secure.aaa.wifi.xfinity.com**|
-|CA Certificate|_Select **file /usr/share/ca-certificate/mozilla/Comodo_AAA_Services_root.crt**_|
+|CA Certificate|_Select file **/usr/share/ca-certificates/mozilla/Comodo_AAA_Services_root.crt**_|
 |No CA Certificate is required|_Leave unchecked_|
 |Inner Authentication|**PAP**|
 |Username|_Your comcast email account_|
