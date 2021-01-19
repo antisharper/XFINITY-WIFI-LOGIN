@@ -32,7 +32,7 @@ network={
         ca_cert="/usr/share/ca-certificates/mozilla/Comodo_AAA_Services_root.crt"
         phase2="auth=PAP"
         #### Change below ######
-        identity="**Your Comcast Account/Emailaddress**"
-        password="**Your Comcast Account Password**"
+        identity="**Your Comcast Email address (format:xxxxxxxx@comcast.net)**"
+        password="**Your Comcast Email Password**"
 }
 ```
