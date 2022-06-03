@@ -1,6 +1,8 @@
 # XFINITY-WIFI-LOGIN
 How to log into secure "XFINITY" wifi hotspots (not open "xfinitywifi") on ubuntu linux
 
+# --- NOT WORKING / DO NOT USE --- 
+
 ## Prerequisites
 1. XFINITY secure network is ONLY 5GHz, must have an Wifi device capable of 5 GHz A or AC
 2. 5 GHz wifi device must have an installed and WORKING Linux driver.
